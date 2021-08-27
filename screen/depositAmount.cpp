@@ -10,6 +10,6 @@ class DepositAmount {
         void depositAmount() {
             cout << "account number : ";
             cin >> no;
-            db.deposit();
+            db.deposit(no);
         };
 };

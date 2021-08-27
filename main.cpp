@@ -2,7 +2,7 @@
 #include "./db/db.cpp"
 #include <iostream>
 #include "./screen/screen.cpp"
-int main()
+int main(void)
 {   
     Screen screen;
 
@@ -11,4 +11,4 @@ int main()
     screen.init();
 
     return 0;
-}
+};

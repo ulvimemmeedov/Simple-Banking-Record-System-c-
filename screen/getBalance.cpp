@@ -10,6 +10,6 @@ class GetBalance{
         void getBalance() {
             cout << "account number : ";
             cin >> no;
-            db.balance();
+            db.balance(no);
         };
 };

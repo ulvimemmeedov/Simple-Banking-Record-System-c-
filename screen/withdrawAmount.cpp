@@ -13,6 +13,6 @@ class WithdrawAmount {
             cin >> no;
             cout << "ammount : ";
             cin >> ammount;
-            db.withdraw();
+            db.withdraw(no,ammount);
         };
 };

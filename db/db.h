@@ -14,10 +14,10 @@ class Db {
     public:
        void getCustomer(int accountNo);
        void createAccount();
-       void deleteAccount();
-       void withdraw();
-       void deposit();
-       void balance();
+       void deleteAccount(int accountNo);
+       void withdraw(int accountNo,int ammount);
+       void deposit(int accountNo);
+       void balance(int accountNo);
 };
 
 #endif /* DB */
