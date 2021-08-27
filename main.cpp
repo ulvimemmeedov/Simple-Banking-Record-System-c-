@@ -1,7 +1,7 @@
 #include "./db/db.h"
 #include "./db/db.cpp"
 #include <iostream>
-#include "./view/screen.cpp"
+#include "./screen/screen.cpp"
 int main()
 {   
     Screen screen;
