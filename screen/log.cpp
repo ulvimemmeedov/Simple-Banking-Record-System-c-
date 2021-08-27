@@ -3,7 +3,7 @@ using namespace std;
 
 class Log {
     private:
-        string logs[5] = {"1 account get data : ","2 new account : ","3 withdraw amount : ","4 deposit amount : ","5 get balance : "};
+        string logs[6] = {"1 Get account data ","2 New account ","3 Withdraw amount ","4 Deposit amount ","5 Get balance ","6 Quit "};
     public:
        void menuLog(){
            for(string log : logs)

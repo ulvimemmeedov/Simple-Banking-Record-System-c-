@@ -36,6 +36,9 @@ void menu()
     case 5:
         getBalance.getBalance();
         break;
+    case 6:
+         exit(1);
+         break;
     default:
         cout << "wronge input" << endl;
         menu();

@@ -4,10 +4,16 @@ using namespace std;
 
 class NewAccount {
     private:
-        int no;
+        string name, lastname, tell;
         Db db;
     public:
         void create() {
-            db.createAccount();
+            cout << "Enter first name : ";
+            cin >> name;
+            cout << "Enter last name : ";
+            cin >> lastname;
+            cout << "Enter tell : ";
+            cin >> tell;
+            db.createAccount( name, lastname, tell);
         };
 };

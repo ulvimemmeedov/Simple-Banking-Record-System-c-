@@ -9,6 +9,6 @@ int main(void)
     cout << "System started" << endl;
     
     screen.init();
-
+    
     return 0;
 };

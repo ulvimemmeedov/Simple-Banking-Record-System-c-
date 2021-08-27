@@ -5,11 +5,14 @@ using namespace std;
 class DepositAmount {
     private:
         int no;
+        int ammount;
         Db db;
     public:
         void depositAmount() {
             cout << "account number : ";
             cin >> no;
-            db.deposit(no);
+            cout << "deposit ammount : ";
+            cin >> ammount;
+            db.deposit(no,ammount);
         };
 };
